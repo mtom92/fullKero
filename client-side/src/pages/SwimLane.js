@@ -45,7 +45,7 @@ class SwimLane extends Component {
       let taskCards = this.props.tasks.map((task,index)=> {
         console.log(task);
         return (
-             <Task id={task._id} task={task} users={this.props.users} rerender={this.props.rerender} />
+             <Task id={task._id} task={task} blockTitle={this.props.title} users={this.props.users} rerender={this.props.rerender} />
         )
       })
 
