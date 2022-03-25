@@ -154,7 +154,6 @@ class AdminProfile extends Component {
         }
       })
      .then(response=> {
-       console.log("MODIFICADOS", response);
        this.setState({
            titlE: '',
            startDatE: '',
